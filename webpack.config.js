@@ -1,4 +1,3 @@
-
 export default function (webpackConfig) {
   webpackConfig.module.rules.push({
     test: /\.svg$/i,

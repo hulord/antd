@@ -8,7 +8,7 @@ import styles from './index.less'
 const FormItem = Form.Item
 
 const Login = ({
-  loading,
+  loading,  
   dispatch,
   form: {
     getFieldDecorator,

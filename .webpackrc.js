@@ -16,6 +16,7 @@ export default {
     // }
   },
   alias: {
+    //后台入口及插件
     themes: resolve(__dirname, './src/themes'),
     components: resolve(__dirname,"./src/components"),
     utils: resolve(__dirname,"./src/utils"),

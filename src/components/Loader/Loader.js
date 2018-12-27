@@ -16,7 +16,6 @@ const Loader = ({ spinning, fullScreen }) => {
   </div>)
 }
 
-
 Loader.propTypes = {
   spinning: PropTypes.bool,
   fullScreen: PropTypes.bool,

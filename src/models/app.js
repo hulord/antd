@@ -37,7 +37,6 @@ export default {
     locationQuery: {},
   },
   subscriptions: {
-
     setupHistory ({ dispatch, history }) {
       history.listen((location) => {
         dispatch({
@@ -63,7 +62,6 @@ export default {
 
   },
   effects: {
-
     * query ({
       payload,
     }, { call, put, select }) {

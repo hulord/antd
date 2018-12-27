@@ -4,7 +4,6 @@ const { apiPrefix } = config
 let database = posts
 
 module.exports = {
-
   [`GET ${apiPrefix}/posts`] (req, res) {
     const { query } = req
     let { pageSize, page, ...other } = query
